@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgmock_main.so -o ../../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build/lib ../../lib/libgmock.so ../../lib/libgtest.so -lpthread 

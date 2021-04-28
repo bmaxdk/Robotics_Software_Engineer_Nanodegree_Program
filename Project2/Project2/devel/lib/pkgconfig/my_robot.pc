@@ -1,0 +1,8 @@
+prefix=/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/devel
+
+Name: my_robot
+Description: Description of my_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
