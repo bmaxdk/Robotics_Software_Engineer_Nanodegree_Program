@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/devel/share/roseus/ros/ball_chaser/manifest.l"
-  "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/devel/share/roseus/ros/ball_chaser/srv/DriveToTarget.l"
+  "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/devel/share/roseus/ros/ball_chaser/manifest.l"
+  "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/devel/share/roseus/ros/ball_chaser/srv/DriveToTarget.l"
   "CMakeFiles/ball_chaser_generate_messages_eus"
 )
 

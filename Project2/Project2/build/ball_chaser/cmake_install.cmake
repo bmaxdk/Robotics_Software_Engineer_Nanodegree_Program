@@ -1,8 +1,8 @@
-# Install script for directory: /home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/src/ball_chaser
+# Install script for directory: /home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/src/ball_chaser
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/srv" TYPE FILE FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/src/ball_chaser/srv/DriveToTarget.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/srv" TYPE FILE FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/src/ball_chaser/srv/DriveToTarget.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/cmake" TYPE FILE FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build/ball_chaser/catkin_generated/installspace/ball_chaser-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/cmake" TYPE FILE FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/build/ball_chaser/catkin_generated/installspace/ball_chaser-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/devel/include/ball_chaser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/devel/include/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/devel/share/roseus/ros/ball_chaser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/devel/share/roseus/ros/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/devel/share/common-lisp/ros/ball_chaser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/devel/share/common-lisp/ros/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/devel/share/gennodejs/ros/ball_chaser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/devel/share/gennodejs/ros/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/home/eightun/anaconda3/bin/python3" -m compileall "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/devel/lib/python3/dist-packages/ball_chaser")
+  execute_process(COMMAND "/home/eightun/anaconda3/bin/python3" -m compileall "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/devel/lib/python3/dist-packages/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/devel/lib/python3/dist-packages/ball_chaser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/devel/lib/python3/dist-packages/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build/ball_chaser/catkin_generated/installspace/ball_chaser.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/build/ball_chaser/catkin_generated/installspace/ball_chaser.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/cmake" TYPE FILE FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build/ball_chaser/catkin_generated/installspace/ball_chaser-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/cmake" TYPE FILE FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/build/ball_chaser/catkin_generated/installspace/ball_chaser-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/cmake" TYPE FILE FILES
-    "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build/ball_chaser/catkin_generated/installspace/ball_chaserConfig.cmake"
-    "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build/ball_chaser/catkin_generated/installspace/ball_chaserConfig-version.cmake"
+    "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/build/ball_chaser/catkin_generated/installspace/ball_chaserConfig.cmake"
+    "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/build/ball_chaser/catkin_generated/installspace/ball_chaserConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser" TYPE FILE FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/src/ball_chaser/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser" TYPE FILE FILES "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/src/ball_chaser/package.xml")
 endif()
 

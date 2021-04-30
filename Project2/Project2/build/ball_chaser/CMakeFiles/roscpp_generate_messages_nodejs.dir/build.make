@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/build
 
 # Utility rule file for roscpp_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ ball_chaser/CMakeFiles/roscpp_generate_messages_nodejs.dir/build: roscpp_generat
 .PHONY : ball_chaser/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 
 ball_chaser/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	cd /home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/build/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : ball_chaser/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 ball_chaser/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend:
-	cd /home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/src /home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/src/ball_chaser /home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build /home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build/ball_chaser /home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/build/ball_chaser/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/src /home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/src/ball_chaser /home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/build /home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/build/ball_chaser /home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/build/ball_chaser/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ball_chaser/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 

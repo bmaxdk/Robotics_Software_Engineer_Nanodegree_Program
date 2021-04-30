@@ -1,10 +1,12 @@
-## [ROS PROJECT2] 
+## ROS PROJECT 2
 
-### Go Chase It!
+### Mop and Sweep Robot!
 
 ---
 
-**Let Robot to Chase White Ball**
+**Let Robot to Follow White Ball**
+
+This Robot will mop and sweep by following whit ball.
 
 The goals / steps of this project are the following:
 

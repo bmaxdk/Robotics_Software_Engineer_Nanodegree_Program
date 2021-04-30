@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/devel/lib/ball_chaser/drive_bot"
-  "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/lesson2_Intro_ROS/workspace/catkin_ws/devel/lib/ball_chaser/drive_bot.pdb"
+  "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/devel/lib/ball_chaser/drive_bot"
+  "/home/eightun/Downloads/Udacity/Robotics_Software_engineer/Project2__GoChaseIt/New_Project/workspace/catkin_ws/devel/lib/ball_chaser/drive_bot.pdb"
   "CMakeFiles/drive_bot.dir/src/drive_bot.cpp.o"
 )
 
