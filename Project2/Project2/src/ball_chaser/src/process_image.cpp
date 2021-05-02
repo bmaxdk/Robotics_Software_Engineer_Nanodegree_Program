@@ -77,11 +77,6 @@ void process_image_callback(const sensor_msgs::Image img)
     // Depending on the white ball position, call the drive_bot function and pass velocities to it
     // Request a stop when there's no white ball seen by the camera
 
-    // printf("\nimg.width = %d", img.width);
-    // printf("\nimg.step = %d", img.step);
-    // printf("\nimg.height = %d", img.height);
-    // printf("\nimg.rows = %d", img.rows); <--error
-
     int left_count = 0;
     int front_count = 0;
     int right_count = 0;
@@ -117,8 +112,17 @@ void process_image_callback(const sensor_msgs::Image img)
         
     // Find maximum count for left, fron, right to move:
     int max_count = maximum(left_count, front_count, right_count);
+
+
     string image_side;
-    // printf("\n max_count = %d", max_count);
+
+    // Set the robot to stop when the robot close enough to reach white ball
+    int image_area = img.width * img.height;
+    float image_color_occupancy = (float)left_count/image_area + (float)front_count/image_area + (float)right_count/image_area;
+    if (image_color_occupancy >= 0.55) {
+        max_count = 0;
+    }
+
 
     // Important step to send lin_x and ang_z to Request a ball_chaser/command_robot service to move
     // Depending on the white ball position, call the drive_bot function and pass velocities to it.
